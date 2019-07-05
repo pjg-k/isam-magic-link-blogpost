@@ -1,0 +1,17 @@
+{
+    "name": "Magic Link - Send Link Success",
+    "predefined": false,
+    "description": "",
+    "uri": "urn:ibm:security:authentication:asf:mechanism:MLSendLinkSuccess",
+    "attributes": [],
+    "typeId": "13",
+    "properties": [{
+            "key": "infoMap.JSRule",
+            "value": "ML_sendLinkSuccess"
+        },
+        {
+            "key": "infoMap.HTMLPage",
+            "value": "/authsvc/authenticator/magic_link/send_link_success.html"
+        }
+    ]
+}

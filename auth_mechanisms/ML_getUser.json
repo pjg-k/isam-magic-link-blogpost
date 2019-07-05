@@ -1,0 +1,17 @@
+{
+    "name": "Magic Link - Get User",
+    "predefined": false,
+    "description": "",
+    "uri": "urn:ibm:security:authentication:asf:mechanism:MLGetUser",
+    "attributes": [],
+    "typeId": "13",
+    "properties": [{
+            "key": "infoMap.JSRule",
+            "value": "ML_getUser"
+        },
+        {
+            "key": "infoMap.HTMLPage",
+            "value": "/authsvc/authenticator/magic_link/get_user.html"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{"name":"Magic Link - Send Link",
+ "predefined":false,
+ "description":"",
+"uri":"urn:ibm:security:authentication:asf:mechanism:MLSendLink",
+ "attributes":[],
+ "typeId": "14",
+    "properties": [{
+        "key": "EmailMessage.EmailPage",
+        "value": "/authsvc/authenticator/magic_link/email_message.xml"
+    }, {
+        "key": "EmailMessage.ErrorPage",
+        "value": "/authsvc/authenticator/email_message/error.html"
+    }, {
+        "key": "EmailMessage.emailAttr",
+        "value": "email"
+    }, {
+        "key": "EmailMessage.emailAttrSender",
+        "value": "magicLink@example.org"
+    }, {
+        "key": "EmailMessage.serverConnection",
+        "value": "$server_connection_id"
+    }]
+}

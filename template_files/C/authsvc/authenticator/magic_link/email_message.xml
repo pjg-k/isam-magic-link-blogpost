@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<Subject>
+  <Value>
+    Magic Link
+  </Value>
+</Subject>
+<Message>
+  <Value>
+    <![CDATA[
+    <html>
+        <body>
+           Hi @uid@, 
+           please click blow magic link for login.
+           <br/>
+           Link: @link@ 
+        </body>
+    </html>
+    ]]>
+  </Value>
+</Message>
+</root>

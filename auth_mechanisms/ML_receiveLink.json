@@ -1,0 +1,17 @@
+{
+    "name": "Magic Link - Receive Link",
+    "predefined": false,
+    "description": "",
+    "uri": "urn:ibm:security:authentication:asf:mechanism:MLReceiveLink",
+    "attributes": [],
+    "typeId": "13",
+    "properties": [{
+            "key": "infoMap.JSRule",
+            "value": "ML_receiveLink"
+        },
+        {
+            "key": "infoMap.HTMLPage",
+            "value": ""
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<Subject>
+  <Value>
+    Password Reset
+  </Value>
+</Subject>
+<Message>
+  <Value>
+    <![CDATA[
+    <html>
+        <body>
+           Hi @firstName@ @surname@, 
+           please click blow link to reset your password.
+           <br/>
+           Link: @link@ 
+        </body>
+    </html>
+    ]]>
+  </Value>
+</Message>
+</root>
